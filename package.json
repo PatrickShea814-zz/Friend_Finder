@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/PatrickShea814/Friend_Finder"
   },
   "keywords": [],
-  "author": "",
+  "author": "Patrick Shea",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/PatrickShea814/Friend_Finder",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4"
