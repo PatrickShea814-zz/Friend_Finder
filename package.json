@@ -1,25 +1,21 @@
 {
-  "name": "friend_finder",
+  "name": "FriendFinder",
   "version": "1.0.0",
-  "description": "Week 13 Express.js Homework",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PatrickShea814/Friend_Finder.git"
+    "url": "git+"
   },
-  "author": "Patrick Shea",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PatrickShea814/Friend_Finder/issues"
-  },
-  "homepage": "https://github.com/PatrickShea814/Friend_Finder#readme",
+  "homepage": "",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "path": "^0.12.7"
+    "express": "^4.16.4"
   }
 }
