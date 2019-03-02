@@ -40,7 +40,3 @@ It uses HTML/CSS/Javascript and Bootstrap on the front end and Node/Express on t
    * The modal displays the name and picture of the user's closest match.
 
 7. The user who took the survey is then added to the array in `app/data/friends.js` to be compared to future users. (Not functional once closing the app due to a Database not being setup.)
-
-- - -
-
-## To Do

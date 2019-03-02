@@ -30,13 +30,15 @@ function addFriend(name, photo, score) {
 
 function createFriend() {
   for (var i = 0; i < 10; i++) {
-    addFriend(randomName(), randomPhoto(), randomScore());
+    newName = randomName();
+    newPhoto = randomPhoto();
+    newScore = randomScore();
+    addFriend(newName, newPhoto, newScore);
   };
 };
 
 createFriend();
-console.log(friends);
-
+console.log(friends)
 
 function randomName() {
   var ranName = names.splice([Math.floor(Math.random() * names.length)], 1);
@@ -58,7 +60,7 @@ function randomScore() {
 };
 // var friends = [
 //   {
-//     name: "Ross Geller",
+//     name: "Jesus Quintana",
 //     photo: "http://images.fanpop.com/images/image_uploads/Ross-Geller-ross-geller-322097_624_780.jpg",
 //     scores: [
 //       "5",
@@ -74,7 +76,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Monica Geller",
+//     name: "Knox Harrington",
 //     photo: "https://vignette.wikia.nocookie.net/p__/images/e/ee/Ms._Gale_Weathers.png/revision/latest?cb=20141118184240&path-prefix=protagonist",
 //     scores: [
 //       "4",
@@ -90,7 +92,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Rachel Green",
+//     name: "Tony Dang",
 //     photo: "http://images.hellogiggles.com/uploads/2015/08/10/Rachel-Green-friends-37542584-864-576.jpg",
 //     scores: [
 //       "5",
@@ -106,7 +108,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Ross Geler",
+//     name: "Master Chief",
 //     photo: "https://timedotcom.files.wordpress.com/2018/10/david-schwimmer-ross-friends.jpg",
 //     scores: [
 //       "3",
@@ -122,7 +124,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Joey Tribbiani",
+//     name: "The Dude",
 //     photo: "https://i.pinimg.com/originals/7c/a8/08/7ca8081d3512d0ce7e50b0a3797ea2b6.jpg",
 //     scores: [
 //       "4",
@@ -138,7 +140,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Phoebe Buffay",
+//     name: "Walter Sobchak",
 //     photo: "https://sites.google.com/site/friends2365/_/rsrc/1472782816553/home/phoebe-buffay-1/Phoebe-Buffay-psd52229.png",
 //     scores: [
 //       "4",
@@ -154,7 +156,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Gunther",
+//     name: "Donny Kerabatsos",
 //     photo: "http://digitalspyuk.cdnds.net/16/39/480x240/landscape-ustv-friends-gunther.jpg",
 //     scores: [
 //       "1",
@@ -170,7 +172,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Mr. Heckles",
+//     name: "Cortana",
 //     photo: "https://vignette.wikia.nocookie.net/jaygt/images/c/c9/Mrheckles.png/revision/latest?cb=20180206140047",
 //     scores: [
 //       "5",
@@ -186,7 +188,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Ross",
+//     name: "Bunny Lebowski",
 //     photo: "https://gl-images.condecdn.net/image/oQYy7b8zjXN/crop/405/f/ross-geller_glamour_10aug17_cbs-sky_p.jpg",
 //     scores: [
 //       "1",
@@ -202,7 +204,7 @@ function randomScore() {
 //     ]
 //   },
 //   {
-//     name: "Ted Moesby",
+//     name: "Karl Hungus",
 //     photo: "http://i.imgur.com/R5xIL.png",
 //     scores: [
 //       "3",
